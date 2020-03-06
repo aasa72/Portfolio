@@ -90,8 +90,9 @@ h3 {
  color: rgb(123,3,163);
 }
    
-h4 {
- font-size: 17px;
+.small-paragraph-text {
+ font: 17px 'Montserrat';
+ 
 }
    
 .tech-info {
