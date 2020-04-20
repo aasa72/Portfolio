@@ -92,7 +92,6 @@ h3 {
    
 .small-paragraph-text {
  font: 17px 'Montserrat';
- 
 }
    
 .tech-info {
@@ -283,6 +282,11 @@ footer p {
  color: white;
  margin: 5px
 }
+
+footer a {
+   text-decoration: none;
+   color: white;
+}
      
    /* media queries  */
    
@@ -327,6 +331,8 @@ footer p {
    
  .featured-projects-wrapper {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
  }
    
  .featured-projects {
@@ -336,7 +342,8 @@ footer p {
    
    
  .other-projects-wrapper {
-  align-self: baseline;
+   align-self: baseline;
+  
  }
    
  .thoughts-wrapper {
