@@ -68,7 +68,7 @@ h1 {
 p {
  font-family: 'roboto';
  font-size: 17px;
- text-align: left;
+ text-align: center;
 }
    
 h3 {
@@ -91,6 +91,7 @@ h3 {
 }
    
 .small-paragraph-text {
+ width: 75%;
  font: 17px 'Montserrat';
 }
    
@@ -135,6 +136,9 @@ h3 {
  z-index: 5;
  transform: translate(-50%, -50%);
 }
+.project-wrapper h3 {
+ background-color: darkgray;
+}
    
 .featured-projects .project-wrapper img {
  width: 300px;
@@ -147,7 +151,9 @@ h3 {
  justify-content: left;
  flex-wrap: wrap;
 }
-   
+.project-text-container p {
+   text-align: left;
+}   
 .tech-container {
  display: flex;
  margin-bottom: 10px;
@@ -336,13 +342,17 @@ footer a {
  }
    
  .featured-projects {
-  width: 300px;
+  width: 400px;
   padding: 5px 20px 40px 20px;
  }
+ .featured-projects .project-wrapper img {
+   width: 400px;
+   height: 200px;
+  }
    
    
  .other-projects-wrapper {
-   align-self: baseline;
+   align-self: center;
   
  }
    
@@ -355,8 +365,9 @@ footer a {
  }
    
  .more-thoughts-wrapper {
+  width: 80%;
   display: block;
-  align-self: baseline;
+  align-self: center;
  }
    
  .more-icons {
